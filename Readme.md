@@ -2,6 +2,9 @@
 
 This guide outlines the implementation of a conversational AI agent with short-term and long-term memory capabilities using Deno/TypeScript, LangGraph, and MongoDB Atlas.
 
+The jupyter notebook is [here](https://github.com/vasmitr/ts-mongo-langgraph-tutorial/blob/main/notebooks/ts-mongo-langgraph-tutorial.ipynb).
+See how to set up [jupyter with Deno kernel](https://docs.deno.com/runtime/manual/tools/jupyter/)
+
 ## Tech Stack
 
 - Deno: JavaScript/TypeScript runtime
