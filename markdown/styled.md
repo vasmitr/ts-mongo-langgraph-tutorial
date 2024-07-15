@@ -1,3 +1,85 @@
+<style>
+  body {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1a202c;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  h1 { font-size: 2.5em; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+  h2 { font-size: 2em; border-bottom: 1px solid #3498db; padding-bottom: 5px; }
+  h3 { font-size: 1.5em; }
+  p { margin-bottom: 1.2em; }
+  a { color: #3498db; text-decoration: none; transition: color 0.3s ease; }
+  a:hover { color: #2980b9; text-decoration: underline; }
+  code {
+    background-color: #e0e7ff;
+    color: #4a5568;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
+  }
+  pre {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
+  }
+  blockquote {
+    border-left: 4px solid #3498db;
+    margin: 0;
+    padding: 0.5em 1em;
+    background-color: #e0f2fe;
+    color: #2c3e50;
+    font-style: italic;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  th, td {
+    border: 1px solid #cbd5e0;
+    padding: 0.5em;
+    text-align: left;
+  }
+  th {
+    background-color: #edf2f7;
+    font-weight: bold;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #cbd5e0;
+    margin: 2em 0;
+  }
+  ul, ol {
+    padding-left: 1.5em;
+  }
+  li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
 # Technical Guide: Implementing an AI Agent with LangGraph and Vector Search in Deno/TypeScript
 
 This guide outlines the implementation of a conversational AI agent with short-term and long-term memory capabilities using Deno/TypeScript, LangGraph, and MongoDB Atlas.
